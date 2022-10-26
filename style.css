@@ -78,12 +78,23 @@ input[type=text] {
 .fa-brands {
 	font-size: 20px;
 	color: var(--blue);
-	margin-bottom: 20px;
+	text-align: center;
+}
+
+.socials {
+	width: 20px;
+	height: 20px;
+	border: 1px solid var(--pale-blue);
+	border-radius: 50%;
+	padding: 7px;
+	display: inline-block;
+	margin: 0px 10px 10px 0px;
 }
 
 .copyright {
 	color: var(--gray);
 	font-size: 12px;
+	margin-top: 30px;
 }
 
 .attribution {
