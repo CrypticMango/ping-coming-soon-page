@@ -91,6 +91,14 @@ input[type=text] {
 	margin: 0px 10px 10px 0px;
 }
 
+.socials:hover {
+	background-color: var(--blue);
+}
+
+.fa-brands:hover {
+	color: white;
+}
+
 .copyright {
 	color: var(--gray);
 	font-size: 12px;
