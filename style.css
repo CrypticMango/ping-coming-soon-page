@@ -58,7 +58,7 @@ input[type=email] {
 }
 
 input[type=email]:invalid {
-	border: 2px solid red;
+	border: 2px solid var(--light-red);
 }
 
 .error {
@@ -85,6 +85,7 @@ input[type=email]:invalid {
 .form-button:hover {
 	background-color: hsl(223, 83%, 72%);
 	border: 1px solid hsl(223, 83%, 72%);
+	cursor: pointer;
 }
 
 .dashboard-pic {
@@ -110,6 +111,7 @@ input[type=email]:invalid {
 
 .socials:hover {
 	background-color: hsl(223, 83%, 72%);
+	cursor: pointer;
 }
 
 .fa-brands:hover {
