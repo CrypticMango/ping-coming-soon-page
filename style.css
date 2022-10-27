@@ -65,7 +65,9 @@ input[type="email"]:invalid {
 	display: block;
 	color: var(--light-red);
 	margin-bottom: 70px;
-	font-size: 15px;
+	margin-top: 10px;
+	font-size: 12px;
+	
 }
 
 ::placeholder {
