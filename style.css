@@ -65,7 +65,6 @@ input[type="email"]:invalid {
 	display: block;
 	color: var(--light-red);
 	margin-bottom: 70px;
-	margin-right: 390px;
 	font-size: 15px;
 }
 
@@ -169,6 +168,14 @@ input[type="email"]:invalid {
 		width: 200px;
 		height: 60px;
 		font-size: 20px;
+	}
+
+	.error {
+		display: block;
+		color: var(--light-red);
+		margin-bottom: 70px;
+		margin-right: 390px;
+		font-size: 15px;
 	}
 
 	.dashboard-pic {
