@@ -121,3 +121,45 @@ input[type=text] {
 .attribution a {
 	color: var(--blue);
 }
+
+@media (min-width: 1440px) {
+	
+	body {
+		font-size: 20px;
+	}
+
+	h1 {
+		font-size: 55px;
+		margin-bottom: 0px;
+	}
+	
+	a {
+		text-align: center;
+	}
+
+	.logo {
+		width: 7%;
+	}
+
+	.subscribe {
+		font-size: 22px;
+	}
+	
+	.text-field {
+		width: 450px;
+		height: 60px;
+		margin-right: 5px;
+		font-size: 20px;
+	}
+
+	.form-button {
+		width: 200px;
+		height: 60px;
+		font-size: 20px;
+	}
+
+	.dashboard-pic {
+		width: 54%;
+		margin-bottom: 70px;
+	}
+}
