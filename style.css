@@ -3,7 +3,7 @@
 	--pale-blue: hsl(223, 100%, 88%);
 	--light-red: hsl(354, 100%, 66%);
 	--gray:  hsl(0, 0%, 59%);
-	--Very Dark Blue: hsl(209, 33%, 12%)
+	--Very-Dark-Blue: hsl(209, 33%, 12%)
 }
 
 body {
@@ -28,7 +28,7 @@ span {
 }
 
 form {
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 input {
@@ -53,8 +53,20 @@ input {
 	margin-bottom: 10px;
 }
 
-input[type=text] {
+input[type=email] {
 	padding-left: 30px;
+}
+
+input[type=email]:invalid {
+	border: 2px solid red;
+}
+
+.error {
+	display: block;
+	color: var(--light-red);
+	margin-bottom: 70px;
+	margin-right: 390px;
+	font-size: 15px;
 }
 
 ::placeholder {
