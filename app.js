@@ -1,3 +1,5 @@
+//client side verification
+
 const emailField = document.getElementById("email");
 const response = document.getElementById("response");
 const button = document.getElementById("submit-button");
