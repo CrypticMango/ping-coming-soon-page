@@ -67,7 +67,7 @@ input[type="email"]:invalid {
 	margin-bottom: 70px;
 	margin-top: 10px;
 	font-size: 12px;
-	
+	font-style: italic;
 }
 
 ::placeholder {
@@ -178,6 +178,7 @@ input[type="email"]:invalid {
 		margin-bottom: 70px;
 		margin-right: 390px;
 		font-size: 15px;
+		font-style: italic;
 	}
 
 	.dashboard-pic {
